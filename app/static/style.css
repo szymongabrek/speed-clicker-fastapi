@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+
+body {
+  background: #1d4e89;
+  color: #f79256;
+}
+
+#nickname {
+  font-family: "Syne Mono", monospace;
+  text-align: center;
+  border-radius: 5px;
+
+  font-size: 30px;
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+button {
+  font-family: "Syne Mono", monospace;
+
+  background: #7dcfb6;
+  border: 5px solid black;
+  border-radius: 5pt;
+
+  font-size: 50pt;
+  user-select: none;
+}
+
+button:hover {
+  background: #fbd1a2;
+  font-size: 55pt;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+#game {
+  font-family: "Syne Mono", monospace;
+  font-size: 50px;
+  text-align: center;
+}
+
+h1 {
+}
+
+ul {
+  list-style: none;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Speed Clicker!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="static/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="static/script.js" defer></script>
+  </head>
+  <body>
+    <div id="game">
+      <h1>Speed Clicker</h1>
+
+      <h3 id="timer">Timer: 00:00</h3>
+      <button id="click-btn">10</button>
+      <div>
+        <form id="add-highscore">
+          <input
+            name="nickname"
+            id="nickname"
+            type="text"
+            placeholder="Nickname"
+          />
+          <input name="submit" type="submit" value="Add HighScore" disabled />
+        </form>
+      </div>
+    </div>
+    <div>
+      <h2>Highscore</h2>
+      <ul id="highscore"></ul>
+    </div>
+  </body>
+</html>
